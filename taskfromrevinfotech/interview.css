@@ -1,0 +1,78 @@
+*,.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+
+.top{background: url("background-1.jpg") no-repeat center;width: 100%; min-height: 680px;background-size: cover;}
+.top img{display: inline-block;padding: 20px;}
+.top .social-media{display: inline-block;padding: 10px;}
+.top .social-media{float: right;}
+.top i {color:#99ff33b5; font-size: 14px;padding: 16px;padding-top: 10px;}/*#99ff33*/
+.top .relative{margin-top: 15%;}/*position: relative;*/
+.top .matters{text-align: center;color: #fff;}/*position: absolute;top: 44%;left: 14%;right: 14%;*/
+.top .matters h2{font-weight: 300;font-size: xx-large;line-height: 60px;letter-spacing: .1rem; }
+.top .matters p{margin: 10px 0;font-size: larger;line-height: 20px}/*top: 52%;left: 33%;right: 35%;*/
+.top .matters span{border-bottom:#4caf50 2px solid;color: #6d7079; }
+.top .matters p>img{padding: 5px;position: inherit;}
+.top .matters .btm{text-align: center;}
+.top .matters .btm .bp{color: #e5e7fb;margin-top: 12%;}/*bottom: 16%;right:10%;left:14%;*/
+.top .matters .btm i{color: red; font-size: 28px;margin-bottom: -8%;}/*position: absolute;bottom: 5%;left:49%;*/
+
+
+/* ============================== Second Section ========================= */
+
+.section2{position: relative;width: 100%;display: inline-block;margin-top: -1%;}
+.section2 .back7{background: url('background-2.jpg') no-repeat center;height:650px;background-size: cover;position: relative;float: left;}
+.section2 .back7 h2{color:#4caf50;position: absolute;top:38%;left:40%;right:38%; }
+.section2 .back7 h3{color:#fff;position: absolute;bottom:32%;left:30%;right:30%;text-align: center;font-weight: 300;line-height: 40px;float: left; }
+.section2 .back5{position: relative;background: #99ff33;width:100%;height: 650px;display: inline-block;}
+.section2 .back5 img{position:absolute;top: 30%;left: 48%;}
+.section2 .back5 p{position: absolute;bottom: 27%;padding: 20px;color: #808080;text-align: justify}
+.section2 .back5 a{color:#808080;padding-top: 2px;border:1.5px solid #808080; font-size:20px;position: absolute;bottom: 20%;left:39%;}
+
+
+/* ============================== THird Section ========================= */
+
+
+
+.section3 {position: relative;width: 100%;display: inline-block;margin-top: -1%;}
+.section3 .back5{background: #99ff33;width:100%;height:650px;display: inline-block;}
+.section3 .back5 img{position:absolute;top: 30%;left: 42%;}
+.section3 .back5 p{position: absolute;bottom: 27%;padding: 20px;color: #808080;text-align: justify}
+.section3 .back5 a{color:#808080;padding-top: 2px;border:1.5px solid #808080; font-size:20px;position: absolute;bottom: 20%;left:39%;}
+.section3 .back7{position: absolute;background: url('background-3.jpg') no-repeat center;height:650px;display: inline-block;background-size: cover;}
+.section3 .back7 h2{color:#4caf50;position: absolute;top:38%;left:40%;right:38%; }
+.section3 .back7 h3{color:#fff;position: absolute;bottom:32%;left:30%;right:30%;text-align: center;font-weight: 300;line-height: 40px; }
+
+
+
+@media(max-width:992px) and (min-width:768px){
+    .section2 .back5 img{top: 20%;}
+    .section3 .back5 img{top: 20%;}
+    .section2 .back7 h2 {top:30%;left:32%;right:30%}
+    .section2 .back7 h3 {bottom: 45%;left:0;right: 0;}
+    .section3 .back7 h2 {top:30%;left:32%;right:30%}
+    .section3 .back7 h3 {bottom: 45%;left:0;right: 0;}
+
+}
+
+@media(max-width:768px) and (min-width:320px){
+    .section2 .back5 img{top: 26%;}
+    .section3 .back5 img{top: 26%;}
+    .section2 .back7 h2 {top:30%;left:32%;right:30%}
+    .section2 .back7 h3 {bottom: 45%;left:0;right: 0;}
+    .section3 .back7 h2 {top:30%;left:32%;right:30%}
+    .section3 .back7 h3 {bottom: 45%;left:0;right: 0;}
+}
+
+
+
+
+
+
+
+
+
